@@ -34,17 +34,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo-wrap" aria-label="Logo"></div>
-        <div class="page-title">Latihan</div>
-    </header>
 
     <main class="container">
-        <h1 class="hero-title"><span class="bullet">•</span>Buatlah fungsi CRUD pada web portal seperti dibawah ini :</h1>
-
         <nav class="tab-bar" aria-label="Navigasi utama">
             <a href="index.php">Portal Berita</a>
-            <a href="index.php">Home</a>
             <a href="tambah.php" class="active">Input Berita</a>
         </nav>
 

@@ -16,11 +16,8 @@ $beritaList = mysqli_fetch_all($result, MYSQLI_ASSOC);
 <body>
 
     <main class="container">
-        <h1 class="hero-title"><span class="bullet">•</span>Buatlah fungsi CRUD pada web portal seperti dibawah ini :</h1>
-
         <nav class="tab-bar" aria-label="Navigasi utama">
             <a href="index.php" class="active">Portal Berita</a>
-            <a href="index.php">Home</a>
             <a href="tambah.php">Input Berita</a>
         </nav>
 
